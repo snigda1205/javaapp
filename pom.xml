@@ -25,11 +25,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
-            <version>2.3</version>
+            <version>3.5.3</version>
             <configuration>
                 <webXml>WebContent\WEB-INF\web.xml</webXml>
             </configuration>
         </plugin>
 </plugins>
 </build>
+<properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+</properties>
 </project>
