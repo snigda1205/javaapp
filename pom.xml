@@ -23,6 +23,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <finalName>WebProj</finalName>
 <plugins>
 <plugin>
+<dependencies>
+<dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
             <version>3.5.3</version>
@@ -31,6 +33,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                 <webXml>WebContent\WEB-INF\web.xml</webXml>
             </configuration>
         </plugin>
-</plugins>
+
+</dependency>
+</dependencies>
 </build>
 </project>
